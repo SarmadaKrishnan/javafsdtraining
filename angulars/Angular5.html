@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>Angular JS application</head>
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<body>
+    <h1>sample application</h1>
+    <script>
+        var myApp=angular.module('myApp',[]);
+        myApp.controller('myCtrl',function($scope)
+        {
+            $scope.name=['sarmada','alona','akhila'];
+        });
+
+</script>
+<div ng-app="myApp" ng-controller="myCtrl">
+    <p>list of names</p>
+
+    <li ng-repeat="a in name">{{a}}</li>
+</div>
+        
+</body>
+</html>
