@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+
+
+.img-container{
+text-align:center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color:blue;
+}
+
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  font-size:20px;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  
+}
+
+
+.topnav a:hover {
+  background-color: grey;
+  color: black;
+}
+.image {
+ 
+  background-image: url("https://webrfree.com/wp-content/uploads/2018/09/White_Abstract_5241852.jpg");
+  min-height: 1200px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1700px 1800px;
+  position: relative;
+}

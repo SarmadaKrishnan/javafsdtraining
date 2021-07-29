@@ -1,0 +1,143 @@
+
+
+
+*{
+
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'poppins',sans-serif;
+	
+}
+body{
+	background:url(bank1.jpg);
+     background-size:cover;
+     
+}
+header{
+	width:100%;
+	padding:5px;
+	background-color:#000080;
+	position:absolute;
+	top:0;
+	color:white;
+	
+}
+header a{
+	margin-right:20px;
+	font-size:14px;
+	letter-spacing:1px;
+	font-family:Tahoma;
+	text-decoration:none;
+	color:white;
+}
+header a:hover{
+	color:#ccccff ;
+}
+.head1{
+		float:right;
+		margin-top:25px;
+		
+		
+}
+.head img{
+	width:10%;
+	height:30;
+	
+}
+.content{
+	
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	position:relative;
+	background:#ffffff;
+	margin-bottom:10%;
+	 margin-top:8%;
+     margin-left:50px;
+     max-width:350px;
+     padding:20px;
+	border-radius:10px;			
+}
+
+.content1 h2{
+	color:black;
+	font-weight:600;
+	font-size:1.5em;
+	margin-bottom:30px;
+	display:inline-block;
+	letter-spacing:1px;	
+		
+}
+.content .content1 .input span{
+
+	font-weight:300;
+	font-size:16px;
+	margin-bottom:5px;
+	display:inline-block;
+	letter-spacing:1px;
+}
+ .content .content1 .input input{
+	border:1px solid black;
+	font-weight:400;
+	font-size:16px;
+	letter-spacing:1px;
+	online:none;
+	padding:10px 20px;
+	width:100%;
+	background:transparent;
+	border-radius:20px;
+	
+}
+.content .content1 .input1{
+
+	font-weight:300;
+	font-size:16px;
+	margin-bottom:5px;
+	display:inline-block;
+	letter-spacing:1px;
+}
+.input1{
+	border:1px solid black;
+	font-weight:400;
+	font-size:16px;
+	letter-spacing:1px;
+	online:none;
+	padding:10px 20px;
+	width:50%;
+	background:transparent;
+	border-radius:20px;
+	background: #000080;
+	color:#fff;
+	cursor:pointer;
+	font-weight:500;
+	border:none;
+	width:50%;
+	margin-left:60px;
+	
+}
+ 
+button.input1:hover{
+	background: blue;
+}
+.remember{
+	font-weight:400;
+	font-size:16px;
+	margin-bottom:10px;
+	font-size:14px;
+}
+.pass{
+	font-size:16px;
+	margin-bottom:10px;
+	font-size:14px;
+	align-text:left;
+	color:black;
+}
+.pass a{
+	color:#000080;
+}
+
+.get a{
+	color:#000080;
+	text-decoration:none;
+}
